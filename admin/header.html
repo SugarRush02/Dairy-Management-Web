@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="admin.php">Dairy Management System</a>
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <!-- <a class="nav-link" href="#">
+                  About
+                </a> -->
+            </li>
+            <li class="nav-item" >
+                <button type="button" class="nav-link bg-dark" style="border: none ;" onclick="onLogout()">Logout</button>
+            </li>
+        </ul>
+</div>
+
+<script>
+  function onLogout(){
+    var confirmLogout = confirm("Are you sure you want to logout?");
+        if (confirmLogout){
+          window.location.href = "logout.php";
+        }        
+          else{
+          // location.assign("admin.php")
+        }
+    //location.replace("C:\\Users\\Rushikesh\\Desktop\\MP5\\login\\login.html")
+  }
+</script>
+</nav>

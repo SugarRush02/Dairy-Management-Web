@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title Page-->
+    <title>Register</title>
+
+    <!-- Icons font CSS-->
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+
+    <!-- Main CSS-->
+    <link href="r-css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body class="img js-fullheight" style="background-image: url(images/bg.jpg);">    <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+        <div class="wrapper wrapper--w790">
+            <div class="card card-5">
+                <div class="card-heading">
+                    <h2 class="title">Customer Registration Form</h2>
+                </div>
+                <div class="card-body">
+                    <form id="reg_form" action="register.php" method="post" >
+                        <div class="form-row m-b-55">
+                            <div class="name">Name</div>
+                            <div class="value">
+                                <div class="row row-space">
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="first_name" id="first_name" required>
+                                            <label class="label--desc">first name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="last_name" id="last_name" required>
+                                            <label class="label--desc">last name</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Email ID</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="email" name="email" id="email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Password</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="password" name="password" id="password" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="name">Phone</div>
+                            <div class="value">
+                                <div class="row row-refine">
+                                    <div class="col-9">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="phone" id="phone" required>
+                                            <label class="label--desc">Phone Number</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            
+                            <div class="name">Address Line 1</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="add1" id="add1" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            
+                            <div class="name">Address Line 2</div>
+                            <div class="value">
+                                <div class="input-group">
+                                    <input class="input--style-5" type="text" name="add2" id="add2" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row m-b-55">
+                            <div class="name"></div>
+                            <div class="value" >
+                                <div class="row row-space">
+                                    <div class="col-3" style="margin-left: -10px;margin-right: -10px;">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="state" id="state" required>
+                                            <label class="label--desc">state</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-3" style="margin-left: -10px;margin-right: -10px;">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="city" id="city" required>
+                                            <label class="label--desc">city</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-3" style="margin-left: -10px;margin-right: -10px;">
+                                        <div class="input-group-desc">
+                                            <input class="input--style-5" type="text" name="pincode" id="pincode" required>
+                                            <label class="label--desc">pincode</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="submit" value="Register" class="btn btn--radius-2 btn--red"  />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
